@@ -28,7 +28,8 @@ h1 {
 }
 
 /* menu */
-.menuDiv {
+.menuDiv,
+.reservationDiv {
 	background-color: yellow;
 	padding: 3em 6em;
 }
