@@ -21,3 +21,18 @@ main {
 h1 {
 	margin: 0em auto;
 }
+
+/* about */
+.aboutDiv {
+	background-color: green;
+}
+
+/* menu */
+.menuDiv {
+	background-color: yellow;
+	padding: 3em 6em;
+}
+
+.menuShow {
+	background-color: gray;
+}
