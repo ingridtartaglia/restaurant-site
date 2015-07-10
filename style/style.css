@@ -23,17 +23,18 @@ h1 {
 }
 
 /* about */
-.aboutDiv {
+.about-div {
 	background-color: green;
 }
 
 /* menu */
-.menuDiv,
-.reservationDiv {
+.menu-div,
+.reservation-div {
 	background-color: yellow;
 	padding: 3em 6em;
 }
 
-.menuShow {
+.menu-show, 
+.reservation-show {
 	background-color: gray;
 }
