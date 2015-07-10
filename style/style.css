@@ -23,13 +23,13 @@ h1 {
 }
 
 /* about */
-.about-div {
+.about-section {
 	background-color: green;
 }
 
 /* menu */
-.menu-div,
-.reservation-div {
+.menu-section,
+.reservation-section {
 	background-color: yellow;
 	padding: 3em 6em;
 }
@@ -37,4 +37,10 @@ h1 {
 .menu-show, 
 .reservation-show {
 	background-color: gray;
+}
+
+footer {
+	background-color: white;
+	margin: 0em auto;
+	padding: 3em 6em;
 }
