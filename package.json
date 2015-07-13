@@ -2,6 +2,7 @@
   "name": "RestaurantSite",
   "version": "0.0.1",
   "devDependencies": {
+    "browser-sync": "^2.7.13",
     "gulp": "^3.9.0",
     "wiredep": "^2.2.2"
   }
