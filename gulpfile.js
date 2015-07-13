@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var install = require("gulp-install");
+var reload = browserSync.reload;
 
 gulp.task('install', function(){
 	gulp.src(['./bower.json', './package.json'])
@@ -18,7 +19,9 @@ gulp.task('wiredep', ['install'], function () {
 gulp.task('serve', ['wiredep'], function() {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "."
         }
     });
 });
+
+gulp.watch(['*.html', 'style/**/*.css', 'app/**/*.js'], {cwd: '.'}, reload);
