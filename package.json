@@ -4,6 +4,7 @@
   "devDependencies": {
     "browser-sync": "^2.7.13",
     "gulp": "^3.9.0",
+    "gulp-install": "^0.4.0",
     "wiredep": "^2.2.2"
   }
 }

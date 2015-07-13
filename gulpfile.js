@@ -1,11 +1,13 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
+var install = require("gulp-install");
 
-gulp.task('default', function(){
-	console.log('oi');
+gulp.task('install', function(){
+	gulp.src(['./bower.json', './package.json'])
+        .pipe(install());
 });
 
-gulp.task('wiredep', function () {
+gulp.task('wiredep', ['install'], function () {
   var wiredep = require('wiredep').stream;
   
   gulp.src('./index.html')
@@ -13,7 +15,7 @@ gulp.task('wiredep', function () {
     .pipe(gulp.dest('.'));
 });
 
-gulp.task('serve', function() {
+gulp.task('serve', ['wiredep'], function() {
     browserSync.init({
         server: {
             baseDir: "./"
