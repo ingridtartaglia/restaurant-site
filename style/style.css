@@ -52,17 +52,29 @@ h1 {
 	background-color: white;
 }
 
+.hours-section {
+	background-color: yellow;	
+}
+
+.hours-show {
+	padding: 0;
+}
+
+.hours-content {
+	padding: 3em 4em;
+}
+
+.hours-img {
+	background-color: black;
+	height: 150px;
+}
+
 /* navpills */
 .center-pills {
 	display: inline-block;
 }
 
 /* reservation form */
-.reservation-form {
-	
-}
-
-
 .hour-form {
 	padding-left: 0;
 }
