@@ -19,37 +19,60 @@ main {
 }
 
 h1 {
-	margin: 0 auto;
+	margin-top: 0;
 	padding-top: 4em;
-	text-align: center;
 	font-size: 3.5em;
 }
 
-/* other sections */
-.about-section,
-.menu-section,
-.reservation-section {
+/* sections */
+.about-section {
 	background-color: gray;
 	padding: 3em 4em;
 }
 
-.about-title,
-.menu-title,
-.reservation-title {
-	text-align: center;
-	margin-bottom: 2.5em;
+.menu-section {
+	background-color: gray;
 }
 
-.menu-show, 
-.reservation-show {
+.reservation-section {
+	background-color: gray;
+}
+
+.menu-show {
+	display: inline-block;
+	margin: 4em 8em;
+	padding: 6em;
 	background-color: white;
-	padding: 3em;
+}
+
+.reservation-show {
+	display: inline-block;
+	margin: 4em 20em;
+	padding: 6em;
+	background-color: white;
+}
+
+/* navpills */
+.center-pills {
+	display: inline-block;
 }
 
 /* reservation form */
-.btn {
-	display: block;
-	margin: 0 auto;
+.reservation-form {
+	
+}
+
+
+.hour-form {
+	padding-left: 0;
+}
+
+.num-people-form {
+	padding-right: 0;
+}
+
+.submit-button {
+	width: 100%;
 }
 
 /* photos */
@@ -74,7 +97,6 @@ footer {
 
 .footer-go-top {
 	padding: 0;
-	text-align: center;
 }
 
 .footer-social {
